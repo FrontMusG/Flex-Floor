@@ -530,6 +530,9 @@ button:hover{
     .footer__copyright{
         font-size: 20px;
     }
+    .hamburger-menu{
+        display: none;
+    }
 }
 @media all and (max-width:1919px) {
     .header__logo{
@@ -573,6 +576,9 @@ button:hover{
     }
     .footer__copyright{
         font-size: 20px;
+    }
+    .hamburger-menu{
+        display: none;
     }
 }
 @media all and (max-width:1699px) {
@@ -618,6 +624,9 @@ button:hover{
     .footer__copyright{
         font-size: 20px;
     }
+    .hamburger-menu{
+        display: none;
+    }
 }
 @media all and (max-width:1499px) {
     .header__logo{
@@ -662,6 +671,9 @@ button:hover{
     .footer__copyright{
         font-size: 20px;
     }
+    .hamburger-menu{
+        display: none;
+    }
 }
 @media all and (max-width:1299px) {
     .header__logo{
@@ -705,6 +717,9 @@ button:hover{
     }
     .footer__copyright{
         font-size: 20px;
+    }
+    .hamburger-menu{
+        display: none;
     }
 }
 @media all and (max-width:1099px){
@@ -753,6 +768,9 @@ button:hover{
     .footer__copyright{
         font-size: 20px;
     }
+    .hamburger-menu{
+        display: none;
+    }
 }
 @media all and (max-width:1000px){
     a.phones{
@@ -793,6 +811,9 @@ button:hover{
     .footer__copyright{
         font-size: 18px;
     }
+    .hamburger-menu{
+        display: block;
+    }
 }
 @media all and (max-width:650px){
     a.phones{
@@ -818,6 +839,9 @@ button:hover{
     .pop_up_body{
         margin-top: 9em;
         padding: 40px 50px 40px 50px;
+    }
+    .hamburger-menu{
+        display: block;
     }
 }
 @media all and (max-width:500px){
@@ -851,5 +875,8 @@ button:hover{
     }
     .container .pop-up span{
         font-size: 75px;
+    }
+    .hamburger-menu{
+        display: block;
     }
 }

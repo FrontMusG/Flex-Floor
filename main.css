@@ -701,6 +701,9 @@ button:hover{
     .footer__copyright{
         font-size: 20px;
     }
+    .hamburger-menu{
+        display: none;
+    }
 }
 
 @media all and (max-width:1919px) {
@@ -804,6 +807,9 @@ button:hover{
     .footer__copyright{
         font-size: 20px;
     }
+    .hamburger-menu{
+        display: none;
+    }
 }
 @media all and (max-width:1699px) {
     .header__logo{
@@ -904,6 +910,9 @@ button:hover{
     .footer__copyright{
         font-size: 20px;
     }
+    .hamburger-menu{
+        display: none;
+    }
 }
 @media all and (max-width:1499px) {
     .header__logo{
@@ -998,6 +1007,9 @@ button:hover{
     .form__container{
         margin-left: 29%;
     }
+    .hamburger-menu{
+        display: none;
+    }
     .footer__container h3{
         font-size: 23px;
     }
@@ -1011,6 +1023,9 @@ button:hover{
 @media all and (max-width:1299px) {
     .header__logo{
         height: 90px;
+    }
+    .hamburger-menu{
+        display: none;
     }
     header a{
         font-size: 10px;
@@ -1091,6 +1106,9 @@ button:hover{
         font-size: 20px;
         height: 80px;
     }
+    .hamburger-menu{
+        display: none;
+    }
     .form__submit{
         font-size: 20px;
         margin-bottom: 25px;
@@ -1112,6 +1130,9 @@ button:hover{
     }
     header a{
         font-size: 9px;
+    }
+    .hamburger-menu{
+        display: none;
     }
     .open_pop_up{
         font-size: 11px;
@@ -1234,6 +1255,9 @@ button:hover{
         width: 1000px;
         
     }
+    .hamburger-menu{
+        display: block;
+    }
     .header__logo{
         height: 100px;
     }
@@ -1333,6 +1357,9 @@ button:hover{
     .button a{
         display: none;
     }
+    .hamburger-menu{
+        display: block;
+    }
     header{
         display: flex;
         justify-content: space-between;
@@ -1374,6 +1401,9 @@ button:hover{
         width: 1000px;
         
     }
+    .hamburger-menu{
+        display: block;
+    }
     .header__logo{
         height: 200px;
     }
@@ -1387,8 +1417,5 @@ button:hover{
     }
     .container .pop-up span{
         font-size: 75px;
-    }
-    body{
-        touch-action: manipulation;
     }
 }
