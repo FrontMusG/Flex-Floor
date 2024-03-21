@@ -841,3 +841,36 @@ button:hover{
         padding: 40px 50px 40px 50px;
     }
 }
+@media all and (max-width:500px){
+    a.phones{
+        display: none;
+    }
+     a.information {
+        display:none ;
+    }
+    .button a{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    html{
+        width: 1000px;
+        
+    }
+    .header__logo{
+        height: 200px;
+    }
+    .pop_up_body{
+        margin-top: 9em;
+        padding: 40px 50px 40px 50px;
+    }
+    .container .pop-up img{
+        height: 35em;
+        margin-top: 30px;
+    }
+    .container .pop-up span{
+        font-size: 75px;
+    }
+}
