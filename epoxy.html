@@ -15,36 +15,38 @@
                 <img class="header__logo" src="img/Logot.jpg" alt="logo">
             </a>
         </div>
-        <div class="contacts">
-            <h5>Время работы:</h5>
-            <span>Пн-Вс:9:00-21:00</span>
-        </div>
-        <div class="contacts-tg">
-            <a href="https://t.me/FlexFloor"><img src="img/Telegram 2.svg" alt=""></a>
-        </div>
         <div class="button">
             <a href="tel:74959999999" class="phones">+79179156716</a>
             <a href="tel:74959999999" class="phones">+79606906142</a>
+            <a href="tel:74959999999" class="phones">+79376179901</a>
             <a href="Floor.html">Виды полов</a>
             <a href="floorabout.html">Примеры работ</a>
             <a href="contacts.html">Контакты</a>
             <a href="#" class="open_pop_up">Заказать</a>
         </div>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box">
+              <li><a class="menu__item" href="index.html">Главная</a></li>
+                    <li><a class="menu__item" href="Floor.html">Виды полов</a></li>
+                    <li><a class="menu__item" href="floorabout.html">Примеры работ</a></li>
+                    <li><a class="menu__item" href="contacts.html">Контакты</a></li>
+                    <a href="#" class="open_pop_up">Заказать</a>
+            </ul>
+          </div>
 
         <div class="pop_up" id="pop_up">
             <div class="pop_up_container">
                 <div class="pop_up_body" id="pop_up_body">
                     <form id="contactForm" action="php/sendmail.php" method="post">
+                        <h1>Мы свяжемся с вами чтобы обсудить решение</h1>
                         <input type="text" name="name" placeholder="Введите имя">
                         <input type="text" name="phone" placeholder="Номер Телефона">
-                        <input type="email" name="email" placeholder="Ваш-email"><br/>
-                        <label for="budget2"></label>
-                        <select name="floor" id="budget2">
-                            <option value="">Какой пол?</option>
-                            <option value="Epoxy">Эпоксидные</option>
-                            <option value="Acrylic">Акриловые</option>
-                            <option value="Polyurethane">Полиуретановые</option>
-                        </select>
+                        <input type="email" name="email" placeholder="Ваш-email">
                         <button type="submit">Оставить заказ</button>
                     </form>
                     <div class="pop_up_close" id="pop_up_close">&#10006</div>
